@@ -1,0 +1,28 @@
+{
+  "/": {
+    "RETELL_TRUNK_NAME": {
+      "description": "The name of the Carrier you configured in jambonz towards Retell",
+      "type": "string",
+      "required": true
+    },
+     "RETELL_SIP_CLIENT_USERNAME": {
+      "description": "The name of the Client you configured in jambonz for Retell",
+      "type": "string",
+      "required": true
+    },
+     "PSTN_TRUNK_NAME": {
+      "description": "The name of the Carrier you configured in jambonz towards your SIP service provider",
+      "type": "string",
+      "required": true
+    },
+     "DEFAULT_COUNTRY": {
+      "description": "The 2 *CHARACTER* ISO-3166 Country Code for your phone number eg US, GB, ES, see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 for values",
+      "type": "string",
+      "required": false
+    },
+     "OVERRIDE_FROM_USER": {
+      "description": "Value to use for From header in outbound calls to PSTN, original From callerID sent by Retell will be added to a Diversion header, use when Sipgate is your carrier",
+      "type": "string",
+      "required": false
+    }
+  }}
