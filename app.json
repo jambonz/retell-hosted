@@ -3,7 +3,8 @@
     "RETELL_TRUNK_NAME": {
       "description": "The name of the Carrier you configured in jambonz towards Retell",
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "retell-hosted"
     },
      "RETELL_SIP_CLIENT_USERNAME": {
       "description": "The name of the Client you configured in jambonz for Retell",
