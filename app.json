@@ -30,4 +30,10 @@
       "type": "string",
       "required": false
     }
+    ,
+     "PASS_REFER": {
+      "description": "When retell sends a cold transfer this is a SIP REFER, if true the REFER will be passed to the originating carrier, if false we will make a new dial from jambonz using the carrier",
+      "type": "boolean",
+      "default": true
+    }
   }}
