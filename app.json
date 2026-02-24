@@ -9,7 +9,7 @@
 
     },
      "RETELL_SIP_CLIENT_USERNAME": {
-      "description": "The name of the Client you configured in jambonz for Retell",
+      "description": "[Deprecated] The name of the Client you configured in jambonz for Retell. This value is only required for use with the deprecated retell-hosted carrier.",
       "type": "string",
       "required": false
     },
@@ -17,7 +17,7 @@
       "description": "The name of the Carrier you configured in jambonz towards your SIP service provider",
       "type": "string",
       "required": true,
-      "jambonz_resource": "carriers"
+      "jambonzResource": "carriers"
 
     },
      "DEFAULT_COUNTRY": {
