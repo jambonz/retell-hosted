@@ -5,7 +5,7 @@
       "type": "string",
       "required": true,
       "default": "retell-hosted",
-      "jambonz_resource": "carriers"
+      "jambonzResource": "carriers"
 
     },
      "RETELL_SIP_CLIENT_USERNAME": {
