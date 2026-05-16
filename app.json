@@ -4,14 +4,8 @@
       "description": "The name of the Carrier you configured in jambonz towards Retell",
       "type": "string",
       "required": true,
-      "default": "retell-hosted",
       "jambonzResource": "carriers"
 
-    },
-     "RETELL_SIP_CLIENT_USERNAME": {
-      "description": "[Deprecated] The name of the Client you configured in jambonz for Retell. This value is only required for use with the deprecated retell-hosted carrier.",
-      "type": "string",
-      "required": false
     },
      "PSTN_TRUNK_NAME": {
       "description": "The name of the Carrier you configured in jambonz towards your SIP service provider",
@@ -19,6 +13,11 @@
       "required": true,
       "jambonzResource": "carriers"
 
+    },
+     "RETELL_SIP_CLIENT_USERNAME": {
+      "description": "[Deprecated] The name of the Client you configured in jambonz for Retell. This value is only required for use with the deprecated retell-hosted carrier.",
+      "type": "string",
+      "required": false
     },
      "DEFAULT_COUNTRY": {
       "description": "The 2 *CHARACTER* ISO-3166 Country Code for your phone number eg US, GB, ES, see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 for values",
