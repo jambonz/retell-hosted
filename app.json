@@ -35,5 +35,10 @@
       "description": "When retell sends a cold transfer this is a SIP REFER, if true the REFER will be passed to the originating carrier, if false we will make a new dial from jambonz using the carrier",
       "type": "boolean",
       "default": true
+    },
+     "FORWARD_HEADERS": {
+      "description": "If checked then any SIP headers beginning with X- will be forwarded from the inbound to the outbound leg",
+      "type": "boolean",
+      "default": false
     }
   }}
